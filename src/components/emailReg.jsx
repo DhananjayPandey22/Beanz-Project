@@ -25,7 +25,7 @@ class EmailReg extends Component {
               style={{ color: "black !important;" }}
               href="https://www.breville.com/us/en/legal/privacy-policy.html"
             >
-              Privacy Policy
+              &nbsp;Privacy Policy
             </a>{" "}
             and{" "}
             <a
