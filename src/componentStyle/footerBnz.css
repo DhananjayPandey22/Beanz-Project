@@ -1,0 +1,56 @@
+.footcon {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: black;
+    padding: 20px 0 20px 50px;
+}
+
+.footimg {
+    width: 100%;
+    height: 65px;
+    display: inline-block;
+    padding-left: 50px;
+}
+
+.footcol {
+    margin-top: 30px;
+    width: 100%;
+    height: 200px;
+    color: #68d3d3;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+.footcolcolor {
+    width: 14%;
+    float: left;
+    color: #68d3d3;
+
+}
+
+.footcolcolor ul li a {
+    color: #68d3d3;
+}
+
+
+.footcolcolor ul li a:link {
+    color: #68d3d3;
+}
+
+.footcopy {
+    color: white;
+    padding-left: 50px;
+    font-size: .8rem;
+}
+
+.footcolhead {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}

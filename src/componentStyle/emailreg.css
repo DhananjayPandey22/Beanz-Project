@@ -1,0 +1,30 @@
+.emailform {
+    float: right;
+    width: 30%;
+    margin-top: 28px;
+}
+
+.textemail {
+    width: 100%;
+}
+
+.emailtitle {
+    width: 60%;
+    float: left;
+}
+
+.emailsub {
+    display: inline-block;
+}
+
+.emailcontainer {
+    font-size: 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+}
+
+.btnER{
+    background-color: #007584;
+    color: white;
+
+}
