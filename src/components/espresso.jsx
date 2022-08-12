@@ -4,31 +4,40 @@ class Espresso extends Component {
   state = {};
   render() {
     return (
-      <div class="escontainer">
-        <h1>{this.props.beanz["jcr:title"]}</h1>
-        <div class="filterCoffee">
-          <img class="esimagel" src="https://picsum.photos/800" />
-
-          <div class="essubtitle">
-            <h2>{this.props.beanz["jcr:subtitle"]}</h2>
-            <p>{this.props.beanz["jcr:description"]}</p>
+      <div className="container-fluid mt-5 mb-5 yfbmaincon">
+        <h2 className="beanheading">{this.props.beanz["jcr:title"]}</h2>
+        <div className="row">
+          <div className="col-sm-3.5 ml-4">
+            <img
+              className="beanimgleft w-100"
+              src={this.props.beanz.imageURL}
+            />
+          </div>
+          <div className="col-sm-5 row yfbcenterdiv">
+            <div className="col-sm-5">
+              <h4 className="yfbtitle">{this.props.beanz["jcr:subtitle"]}</h4>
+              <p className="favpara">{this.props.beanz["jcr:description"]}</p>
+            </div>
+            <div className="col-sm-2">
+              <h1 className="favcenter">OR</h1>
+            </div>
+            <div className="col-sm-5">
+              <h4 className="yfbtitle">{this.props.beanz["jcr:subtitle2"]}</h4>
+              <p className="favpara">{this.props.beanz["jcr:description2"]}</p>
+            </div>
+          </div>
+          <div className="col-sm-3.5">
+            <img
+              className="beanimgright w-100"
+              src={this.props.beanz.image1URL}
+            />
           </div>
         </div>
-
-        <div class="estext">
-          <h1>OR</h1>
+        <div className="beanbtndiv">
+          <a href={this.props.beanz.linkURL} target="blank">
+            <button className="beanbtn">Take our Quiz</button>
+          </a>
         </div>
-
-        <div class="espresso">
-          <img class="esimage" src="https://picsum.photos/800"></img>
-          <div class="essubtitle2">
-            <h2>{this.props.beanz["jcr:subtitle"]}</h2>
-            <p>{this.props.beanz["jcr:description"]}</p>
-          </div>
-        </div>
-        <a href={this.props.beanz.linkURL} target="blank">
-          <button class="esbutton">Take your Quiz</button>
-        </a>
       </div>
     );
   }

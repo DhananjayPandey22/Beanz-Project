@@ -19,13 +19,13 @@ class CardComponent extends Component {
           {Object.keys(obj).map((oneItem) => (
             <div key={obj[oneItem].title} className="cccont">
               <img
-                className=""
+                className="ccImage"
                 src={obj[oneItem].linkURL}
                 width="170px"
                 height="150px"
               />
 
-              <h2> {obj[oneItem].title} </h2>
+              <h4 className="ccTitle"> {obj[oneItem].title} </h4>
 
               <p className="carddesc">{obj[oneItem].subtitle}</p>
             </div>

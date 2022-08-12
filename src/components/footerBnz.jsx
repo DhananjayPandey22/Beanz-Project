@@ -4,10 +4,10 @@ class FooterBnz extends Component {
   state = {};
   render() {
     return (
-      <div class="footcon">
-        <div class="footimg">
+      <div className="footcon">
+        <div className="footimg">
           <a
-            class="logo-footer"
+            className="logo-footer"
             href="https://www.beanz.com/us/en.html"
             target="blank"
             height="50px"
@@ -15,10 +15,10 @@ class FooterBnz extends Component {
             <img src="https://www.beanz.com/content/experience-fragments/beanz/us/en/site/footer/master/_jcr_content/root/container/image.coreimg.svg/1655181228332/beanz-by-breville-logo-white.svg" />{" "}
           </a>
         </div>
-        <div class="footcol">
-          <div class="footcolcolor">
+        <div className="footcol">
+          <div className="footcolcolor">
             <ul>
-              <h2 class="footcolhead">Site</h2>
+              <h2 className="footcolhead">Site</h2>
               <li>
                 <a
                   href="https://www.beanz.com/us/en/coffee.html"
@@ -63,9 +63,9 @@ class FooterBnz extends Component {
               </li>
             </ul>
           </div>
-          <div class="footcolcolor">
+          <div className="footcolcolor">
             <ul>
-              <h2 class="footcolhead">Site</h2>
+              <h2 className="footcolhead">Site</h2>
               <li>
                 <a
                   href="https://www.beanz.com/us/en/coffee.html"
@@ -110,9 +110,9 @@ class FooterBnz extends Component {
               </li>
             </ul>
           </div>
-          <div class="footcolcolor">
+          <div className="footcolcolor">
             <ul>
-              <h2 class="footcolhead">Site</h2>
+              <h2 className="footcolhead">Site</h2>
               <li>
                 <a
                   href="https://www.beanz.com/us/en/coffee.html"
@@ -157,9 +157,9 @@ class FooterBnz extends Component {
               </li>
             </ul>
           </div>
-          <div class="footcolcolor">
+          <div className="footcolcolor">
             <ul>
-              <h2 class="footcolhead">Site</h2>
+              <h2 className="footcolhead">Site</h2>
               <li>
                 <a
                   href="https://www.beanz.com/us/en/coffee.html"
@@ -205,7 +205,7 @@ class FooterBnz extends Component {
             </ul>
           </div>
         </div>
-        <div class="footcopy">
+        <div className="footcopy">
           <p>
             © 2022 Breville USA, Inc. All rights reserved. Terms of Use Privacy
             Policy Cookie Policy Social Responsibility Modern Slavery Act Site

@@ -5,12 +5,19 @@ class LinkImage extends Component {
   render() {
     return (
       <div className="LIcontainer">
-        <img className="Llinkimg" src="https://picsum.photos/1200/600" />
+        <img
+          className="Llinkimg"
+          src={`${process.env.REACT_APP_PORT}${this.props.beanz.imageURL}`}
+        />
         <div className="Ltextlink2">
-          <h1>{this.props.title}</h1>
-          <p className="Llinkpara">{this.props.description}</p>
-          <a href={this.props.linkURL} target="blank">
-            <button className="Llinkbutton">{this.props.buttonTitle}</button>
+          <h1 className="my-3">{this.props.beanz["jcr:title"]}</h1>
+          <p className="Llinkpara mx-2">
+            {this.props.beanz["jcr:description"]}
+          </p>
+          <a href={this.props.beanz.linkURL} target="blank">
+            <button className="Llinkbutton">
+              {this.props.beanz["jcr:buttontitle"]}
+            </button>
           </a>
         </div>
       </div>

@@ -1,30 +1,40 @@
 .emailform {
-    float: right;
-    width: 30%;
-    margin-top: 28px;
+  float: right;
+  width: 30%;
+  margin-top: 28px;
 }
 
 .textemail {
-    width: 100%;
+  width: 100%;
 }
 
 .emailtitle {
-    width: 60%;
-    float: left;
+  width: 60%;
+  float: left;
+  margin: 0;
+  font-family: "Bitter", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: inherit;
+  letter-spacing: normal;
+  color: #2b2b2d;
+  padding-top: 1px;
+  text-align: left;
 }
 
 .emailsub {
-    display: inline-block;
+  display: inline-block;
 }
 
 .emailcontainer {
-    font-size: 100%;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    line-height: 1.5;
+  font-size: 100%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #faf7f5;
+  padding: 15px;
 }
 
-.btnER{
-    background-color: #007584;
-    color: white;
-
+.btnER {
+  background-color: #007584;
+  color: white;
 }

@@ -1,22 +1,23 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 class TopNav extends Component {
   state = {};
   render() {
     return (
-      <div class="topnav">
-        <a href="">
+      <div className="topnav">
+        <Link style={{ borderBottom: "none" }} to="/">
           <img
-            class="beanzlogo"
+            className="beanzlogo"
             src="https://www.beanz.com/content/experience-fragments/beanz/us/en/site/header/master/_jcr_content/root/image.coreimg.svg/1649175807319/beanz-white.svg"
           />
-        </a>
-        <a href="#home">Shop Coffee</a>
-        <a href="#contact">Gifts</a>
-        <a href="#about">Our Roasters</a>
-        <a href="#about">Barista's Choice </a>
-        <a href="#about">Coffee Lowdown</a>
-        <a href="#about">Our Story</a>
+        </Link>
+        <Link to="/shopCoffee">Shop Coffee</Link>
+        <Link to="/gift">Gifts</Link>
+        <Link to="/roasters">Our Roasters</Link>
+        <Link to="#about">Barista's Choice </Link>
+        <Link to="#about">Coffee Lowdown</Link>
+        <Link to="#about">Our Story</Link>
       </div>
     );
   }

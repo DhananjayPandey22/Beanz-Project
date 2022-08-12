@@ -1,49 +1,62 @@
 .ldcontainer {
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 30px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
 }
 
 .ldtext {
-    padding-right: 2.5rem;
-    padding-left: 2.5rem;
-    font-size: 100%;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    line-height: 1.5;
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+  font-size: 100%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
 }
 
 .ldsubtitle {
-    width: 45%;
-    float: left;
+  width: 45%;
+  float: left;
 }
 
 .ldsubtitle2 {
-    width: 45%;
-    float: right;
+  width: 45%;
+  float: right;
 }
 
 .ldbuttondiv {
-    padding-top: 5rem;
-    padding-right: 0px;
-    padding-bottom: 5rem;
-    padding-left: 0px;
+  padding-top: 5rem;
+
+  padding-bottom: 5rem;
+
+  text-align: center;
+  justify-content: center;
 }
 
 .ldbutton {
-    height: 50px;
-    padding-top: 0.9375rem;
-    padding-right: 1.875rem;
-    padding-bottom: 0.9375rem;
-    padding-left: 1.875rem;
-    color: #007584;
-    background-color: #ccf2f2;
-    backdrop-filter: blur(4px);
-    border: rgba(0, 0, 0, 0);
-    border-radius: 0.3125rem;
-    font-family: "Montserrat", sans-serif;
-    letter-spacing: -0.5px;
-    font-weight: 700;
-    text-align: center;
-    padding: 0.3125rem 0.625rem;
-    line-height: 1.5;
+  height: 50px;
+  padding-top: 0.9375rem;
+  padding-right: 1.875rem;
+  padding-bottom: 0.9375rem;
+  padding-left: 1.875rem;
+  color: #007584;
+  background-color: #ccf2f2;
+  backdrop-filter: blur(4px);
+  border: rgba(0, 0, 0, 0);
+  border-radius: 0.3125rem;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: -0.5px;
+  font-weight: 700;
+  text-align: center;
+  padding: 0.3125rem 0.625rem;
+  line-height: 1.5;
+}
+
+.lowdownTitle {
+  text-align: center;
+  font-family: "Bitter";
+  font-weight: bold;
+  margin-top: 2rem;
+}
+.ldsub {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.125rem;
 }
