@@ -9,8 +9,6 @@ import CardComponent from "../components/cardComponent";
 import "../componentStyle/cComponent.css";
 import Lowdown from "../components/lowdown";
 import "../componentStyle/lowdown.css";
-import FooterBnz from "../components/footerBnz";
-import "../componentStyle/footerBnz.css";
 
 import "../componentStyle/topnav.css";
 import "../componentStyle/emailreg.css";
@@ -33,6 +31,7 @@ function Home() {
       setBeanzComponent(v);
     });
   }, []);
+  console.log(beanzComponent);
 
   return (
     <>
@@ -68,7 +67,6 @@ function Home() {
           />
           <Lowdown beanz={beanzComponent.lowdown} />
           <EmailReg beanz={beanzComponent["email-reg"]} />
-          <FooterBnz />
         </div>
       ) : (
         "data not found"

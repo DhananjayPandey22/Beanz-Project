@@ -1,19 +1,20 @@
-.ccItem {
+.csItem {
   width: 20%;
   float: left;
   box-shadow: 0 2px 10px 0 rgba(65, 63, 63, 0.5);
   margin: 1.5rem;
   text-align: center;
   border-radius: 10px;
-  /* margin-left: 5px; */
 }
-.ccContain {
+.csContain {
   width: 100%;
   height: 850px;
-
   margin: 25px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
-.cContain {
+.csContainer {
   margin-top: 0.5rem;
   margin-left: 5rem;
   margin-bottom: 0.5rem;
@@ -22,21 +23,27 @@
 .carousel-control-prev {
   top: 40rem !important;
   left: 43% !important;
+  opacity: 1 !important;
 }
 .carousel-control-next {
   top: 40rem !important;
-  left: 49% !important;
+  left: 48% !important;
+  opacity: 1 !important;
 }
 .carousel-control-prev-icon {
-  color: black !important;
-  background-color: black !important;
-  border-radius: 50%;
-  border-width: 50px;
+  background-image: url(chevron-left.svg) !important;
 }
 .carousel-control-next-icon {
-  color: black !important;
-  background-color: black !important;
+  background-image: url(chevron-right.svg) !important;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  opacity: 1 !important;
   border-radius: 50%;
+  border: 2px solid #007584;
+  width: 35px !important;
+  height: 35px !important;
+  color: #007584;
 }
 
 .carousel-indicators {

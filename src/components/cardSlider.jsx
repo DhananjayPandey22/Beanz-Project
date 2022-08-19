@@ -6,13 +6,6 @@ class CardSlider extends Component {
   render() {
     const beanz = [this.props.beanz];
 
-    var obj = [];
-
-    Object.keys(beanz).map((item) => {
-      obj = beanz[item];
-
-      //console.log(beanz[item]);
-    });
     var obj3 = Object.values(beanz[0]);
 
     let len = obj3.length;
@@ -27,6 +20,13 @@ class CardSlider extends Component {
         newArray.push(v);
 
         itemsArray.push(newArray);
+      } else if (i % 8 == 0 && i === len - 1) {
+        itemsArray.push(newArray);
+
+        newArray = [];
+
+        newArray.push(v);
+        itemsArray.push(newArray);
       } else {
         itemsArray.push(newArray);
 
@@ -38,12 +38,12 @@ class CardSlider extends Component {
 
     return itemsArray.length != 0 ? (
       <>
-        <Carousel className="cContain">
+        <Carousel interval={null} className="csContainer">
           {itemsArray.map((oneItem) => (
-            <Carousel.Item className="ccContain">
+            <Carousel.Item className="csContain justify-content-center align-item-center">
               {oneItem.map((newItem) => {
                 return (
-                  <div className="ccItem p-4">
+                  <div className="csItem p-4 ">
                     <img
                       className="d-block mx-auto"
                       src={newItem.linkURL}

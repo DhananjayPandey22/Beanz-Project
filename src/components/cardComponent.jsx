@@ -9,8 +9,6 @@ class CardComponent extends Component {
 
     Object.keys(beanz).map((item) => {
       obj = beanz[item];
-
-      //console.log(beanz[item]);
     });
 
     return (
