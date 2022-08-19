@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react";
 import LinkImage from "../components/linkImage";
+import SearchBar from "../components/searchBar";
 import "../componentStyle/link.css";
 import getData from "../content/getData.js";
+import "../componentStyle/cComponent.css";
 
 const ShopCoffee = () => {
   const [beanzComponent, setBeanzComponent] = useState(null);
@@ -23,7 +25,7 @@ const ShopCoffee = () => {
       {beanzComponent !== null ? (
         <div>
           <LinkImage beanz={beanzComponent.linkimage} />
-          hi
+          <SearchBar beanz={beanzComponent.cardcomponent.multifield} />
         </div>
       ) : (
         "Data not found"

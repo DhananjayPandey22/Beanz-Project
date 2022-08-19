@@ -1,6 +1,6 @@
 .cccont {
-  display: inline-block;
   padding: 40px 15px 0;
+  flex: 0 1 20%;
 }
 
 .carddesc {
@@ -17,6 +17,9 @@
 
 .flexing {
   text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
 }
 .ccTitle {
   font-size: 1.5rem;
@@ -33,4 +36,14 @@
   max-width: 206px;
   margin: auto auto 0.625rem;
   width: 55%;
+}
+.searchForm {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5rem;
+}
+.seicon {
+  margin-left: -1.5rem;
 }
